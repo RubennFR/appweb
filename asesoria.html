@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Asesoria</title>
+    <link rel="stylesheet" href="estilosproyecto.css" >
+    
+   <a href="index.html"> <img src="icono.png" width="200px" height="200px"></a>
+</head>
+<body id="bodybackground">
+    <form action="formularioasesoria.php" method="post" id="formularios">
+        <br><br>
+        Nombre <input type="text" name="usuario"><br><br>
+        Apellidos <input type="text" name="apellidos"><br><br>
+        Correo eléctronico <input type="text" name="correo"><br><br>
+        Sexo: <input type="radio" name="radios" > Hombre<input type="radio" name="radios" >Mujer<br><br>
+        Enfermedades relevantes (Explicar con detalle abajo) <input type="checkbox"><br><br>
+        Experiencia deportiva (Explicar con detalle abajo) <input type="checkbox"><br><br><br>
+        <select name="objetivo" id="objetivos">
+            <option value="masa">Aumento de masa muscular</option>
+            <option value="perdida">Perdida de peso</option>
+            <option value="mantenimiento">Mantenimiento de peso</option>
+            
+        </select>
+       <br><br><br>
+        <textarea name="textarea"  cols="40" rows="3"></textarea><br><br>
+        <input type="submit" name="enviar" value="Enviar datos">  <input type="reset" name="reset" value="Limpiar"><br><br>
+       
+        <p id="pform">Rellena este simple formulario si quieres formar parte de esta asesoría orientada al entrenamiento y la nutrición. Una vez enviado, nos pondremos en contacto con usted lo antes posible.</p>
+      
+        </form>
+        
+
+    
+</body>
+</html>
